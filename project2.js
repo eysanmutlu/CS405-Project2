@@ -79,7 +79,7 @@ class MeshDrawer {
         this.ambientLoc = gl.getUniformLocation(this.prog, 'ambient');
         
 		// added for task3
-		this.specularIntensityLoc = gl.getUniformLocation(this.prog, 'specularIntensity'); // Task 3 için eklendi
+		this.specularIntensityLoc = gl.getUniformLocation(this.prog, 'specularIntensity'); 
     	this.viewPosLoc = gl.getUniformLocation(this.prog, 'viewPos'); 
 
 
